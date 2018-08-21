@@ -1,0 +1,81 @@
+.course-title h2 {
+  color: #24bfff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom:1.5rem;
+}
+
+.course-title p {
+  font-size:16px;
+  color: #222;
+  line-height: 1.7;
+  // margin: 8px 0 0 0;
+}
+
+ul.single_tour_departure_wrapper {
+/* margin: 0; */
+display: block;
+width: 100%;
+list-style: none;
+margin-top: 40px;
+padding-left:0;
+padding-right:0;
+}
+
+.single_tour_departure_wrapper li {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #dce0e0;
+    float: left;
+}
+
+.single_tour_departure_wrapper li .single_tour_departure_title {
+    width: 30%;
+    float: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.single_tour_departure_wrapper li .single_tour_departure_content {
+    width: 70%;
+    float: right;
+}
+
+.one_half {
+    float: left;
+    width: 48%;
+    margin-right: 3.5%;
+    box-sizing: border-box;
+}
+
+.one_half.last {
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    clear: right;
+}
+
+@media (max-width: 700px) {
+  .one_half, .one_half.last {
+    width: 100%;
+    float: none;
+    clear: both;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .pr-5 {
+    padding-right:15px!important;
+  }
+}
+
+.flex-direction-nav a::before {
+    font-family: "flexslider-icon";
+    font-size: 26px;
+    display: inline-block;
+    content: '\f001';
+    color: #000;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+    // background-color: #000;
+}

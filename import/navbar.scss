@@ -1,0 +1,10 @@
+.navbar-nav .nav-item.active>.nav-link, .navbar-nav .nav-item:active:focus>.nav-link, .navbar-nav .nav-item:hover>.nav-link {
+  // color:#FF4A52;
+  color:#007bff;
+}
+
+// dropdown icon color
+.nav-item:hover .caret {
+  // border-top-color: #FF4A52;
+  border-top-color:#007bff;
+}

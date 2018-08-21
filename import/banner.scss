@@ -1,0 +1,30 @@
+.bg-beginner {
+  background:url("https://budiasa.github.io/assets/images/surfing-header.jpg");
+  background-size: cover;
+  background-position: left center;
+  height: 300px;
+  position: relative;
+  resize: vertical;
+}
+
+.banner-sanur {
+  background:url("https://source.unsplash.com/xx6p28Oz9HI/1600x900");
+  background-size: cover;
+  background-position: left center;
+  height: 300px;
+  position: relative;
+  resize: vertical;
+}
+
+.sunfish-banner {
+   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://source.unsplash.com/k7rZ8wTfABA/1600x900") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 142px 0 92px;
+}
+
+  .bg-mola {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://source.unsplash.com/YDQ7XfbDEkw/1600x900") no-repeat center center;
+    background-size:cover;
+  }

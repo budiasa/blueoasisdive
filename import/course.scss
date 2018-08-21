@@ -1,0 +1,49 @@
+.course-content {
+  max-width: 700px;
+}
+
+.course-title {
+
+}
+
+.color-text {
+  color:rgb(165, 41, 3);
+  font-size:12px;
+  font-weight:700;
+  line-height:16px;
+  text-transform:uppercase;
+}
+
+
+#course img {
+  border-radius:3px;
+}
+
+.fig-image {
+  position:relative;
+}
+.price-tag {
+  position:absolute;
+  bottom:20px;
+  left:0;
+  padding:5px;
+  color:#fff;
+  background-color:#24bfff;
+  border-radius:5px;
+}
+
+.course-list figure:hover img {
+  // transform: scale3d(1.1, 1.1, 1.1);
+  transform:scale(1.1);
+  // overflow:hidden;
+}
+
+.course-list figure img {
+  transition: all .5s;
+  // max-width:100%;
+  // overflow:hidden;
+}
+
+figure {
+  // overflow: hidden;
+}
